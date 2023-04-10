@@ -48,6 +48,18 @@
   /*
     9. Create a root stacking context
   */
+::root {
+  --orange-primary : 25, 97%, 53%;
+  --light-grey : 217, 12%, 63%;
+  --medium-grey: 216, 12%, 54%;
+  --dark-blue: 213, 19%, 18%;
+  --very-dark-blue: 216, 12%, 8%;
 
+  --fs-p: 15px
+  --fw-medium : 400;
+  --fw-bold: 700;
+
+  
+}
 
   

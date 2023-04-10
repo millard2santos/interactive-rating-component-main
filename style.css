@@ -48,7 +48,7 @@
   /*
     9. Create a root stacking context
   */
-::root {
+:root {
   --orange-primary : 25, 97%, 53%;
   --light-grey : 217, 12%, 63%;
   --medium-grey: 216, 12%, 54%;
@@ -59,7 +59,10 @@
   --fw-medium : 400;
   --fw-bold: 700;
 
-  
 }
 
+
+.container {
+  background-color: hsl(var(--dark-blue));
+}
   
